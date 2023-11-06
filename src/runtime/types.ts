@@ -90,6 +90,7 @@ export interface ModuleOptions {
   cookieOptions: CookieOptions
   isAcceptNecessaryButtonEnabled: boolean
   isControlButtonEnabled: boolean
+  isManageable: boolean
   isCookieIdVisible: boolean
   isCssEnabled: boolean
   isCssPonyfillEnabled: boolean
@@ -143,6 +144,7 @@ export const DEFAULTS: Required<ModuleOptions> = {
   },
   isAcceptNecessaryButtonEnabled: true,
   isControlButtonEnabled: true,
+  isManageable: true,
   isCookieIdVisible: false,
   isCssEnabled: true,
   isCssPonyfillEnabled: false,

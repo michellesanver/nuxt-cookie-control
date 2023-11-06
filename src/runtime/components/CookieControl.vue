@@ -21,6 +21,7 @@
                 v-text="localeStrings?.decline"
               />
               <button
+                v-if="moduleOptions.isManageable"
                 @click="isModalActive = true"
                 v-text="localeStrings?.manageCookies"
               />

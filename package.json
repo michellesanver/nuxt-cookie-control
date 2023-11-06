@@ -1,21 +1,18 @@
 {
-  "name": "@dargmuesli/nuxt-cookie-control",
+  "name": "@michellesanver/nuxt-cookie-control",
   "version": "7.1.1",
-  "description": "Nuxt Cookie Control Module",
-  "author": "Dario Ferderber <dario.ferderber@broj42.com>",
+  "description": "Nuxt Cookie Control Module with option to manage",
+  "author": "Michelle Sanver <michelle@liip.ch>",
   "maintainers": [
-    "Jonas Thelemann"
+    "Michelle Sanver"
   ],
-  "funding": {
-    "url": "https://github.com/sponsors/dargmuesli"
-  },
   "keywords": [
     "nuxt cookie control",
     "nuxt gdpr",
     "nuxt cookie consent",
     "nuxt gdpr consent"
   ],
-  "repository": "https://github.com/dargmuesli/nuxt-cookie-control",
+  "repository": "https://github.com/michellesanver/nuxt-cookie-control",
   "license": "MIT",
   "type": "module",
   "engines": {
@@ -55,7 +52,7 @@
   "devDependencies": {
     "@commitlint/cli": "18.2.0",
     "@commitlint/config-conventional": "18.1.0",
-    "@dargmuesli/nuxt-cookie-control": "link:",
+    "@dargmuesli/nuxt-cookie-control": "file:",
     "@nuxt/module-builder": "0.5.2",
     "@nuxt/schema": "3.8.0",
     "@nuxtjs/eslint-config-typescript": "12.1.0",
